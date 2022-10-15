@@ -42,7 +42,12 @@ independientemente de la serie que vayas a utilizar. Para finalizar es necesario
 
 cuenta de usuario para descargar el simulador.
 
-![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image3.png)
+![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image8.png)
+
+![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image13.png)
+
+![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image25.png)
+
 
 
 
