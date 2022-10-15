@@ -13,7 +13,8 @@ Lo primero será **descargar** el simulador desde la página oficial:
 <https://www.universal-robots.com/>
 
 ![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image9.png)
-![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image9.png)
+
+![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image1.png)
 
 
 
@@ -40,6 +41,8 @@ instalará para las versiones **e-serie**. Es claro que los pasos son los mismos
 independientemente de la serie que vayas a utilizar. Para finalizar es necesario crear una
 
 cuenta de usuario para descargar el simulador.
+
+![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image3.png)
 
 
 
