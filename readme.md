@@ -106,15 +106,19 @@ Nota: Si la versión del ubuntu esta en ingles omita la siguiente recomendación
 
 contrario deberá dirigirse a la carpeta que descomprimió y en un editor de texto o block de
 
-notas abra el archivo llamado **install.sh** y modifique la palabra Desktop por Escritorio,
+notas abra el archivo llamado **install.sh** y modifique la palabra Desktop por **Escritorio**,
 
 como muestra la siguiente imagen.
+
+![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image26.png)
+
 
 Luego correr en la terminal el comando
 
 ```bash
 $ sudo ./install.sh
 ```
+![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image14.png)
 
 Lo anterior permitirá observar en el escritorio los accesos directos que ejecutan el
 simulador para cada versión, si los **íconos** mostrados son como se evidencia en la
