@@ -1,20 +1,12 @@
-﻿
 
-Autores: Juan Sebastian Montenegro – exlogam@unicauca.edu.co
+# URSim Instalation Guide
 
-Juan David Ruis – juandarf@unicuaca.edu.co
+    
+## Installation
 
-Fecha: 10/08/2022
-
-Versión: 1.0
-
-**Guia de instalación del URSim para Linux**
 
 NOTA: La instalación del simulador URSim provocará la desinstalación de ROS, por ello
-
-se recomienda realizar previamente los pasos de esta guía, para posteriormente instalar
-
-ROS.
+se recomienda realizar previamente los pasos de esta guía, para posteriormente instalar ROS.
 
 Lo primero será **descargar** el simulador desde la página oficial:
 
@@ -60,19 +52,23 @@ NOTA: Antes de instalar el software se deberá verificar la versión del SDK con
 
 comando en una nueva terminal:
 
+```bash
 $ java -version
+```
+
 
 Si su versión es diferente a **openjdk version "1.8.0"** deberá sustituirla, para ello se
 
 utilizan los siguientes comandos:
 
+
+```bash
+# Comando para instalar jdk v8
 $ sudo apt install openjdk-8-jdk
 
-// Comando para instalar jdk v8
-
-$ sudo update-alternatives --config java // Comando para cambiar versión
-
-jdk
+# Comando para cambiar versión jdk
+$ sudo update-alternatives --config java 
+```
 
 Una vez verificada la versión del SDK, acceder a la carpeta contenedora del simulador,
 
@@ -80,11 +76,12 @@ como se recomendó anteriormente /home/ursim, abrir una terminal y descomprimir 
 
 archivo con los siguientes comandos.
 
+
+
+```bash
 $ tar xvzf URSim\_Linux-5.12.2.1101534.tar.gz
-
 $ cd ursim-5.12.2.1101534
-
-
+```
 
 
 
@@ -98,25 +95,24 @@ como muestra la siguiente imagen.
 
 Luego correr en la terminal el comando
 
+```bash
 $ sudo ./install.sh
+```
 
 Lo anterior permitirá observar en el escritorio los accesos directos que ejecutan el
-
 simulador para cada versión, si los **íconos** mostrados son como se evidencia en la
-
 siguiente imagen se debe ejecutar el siguiente comando.
 
+```bash
 $ sudo chown <user>/home/user/Escritorio/<nombre archivo>.desktop
 
+```
 
 
 
 
 Luego se debe seleccionar el acceso directo de la versión del robot que vaya a ejecutar y
-
-darle permisos de confianza, así podrá visualizar el cambio del ícono y podrá ejecutar el
-
-simulador.
+darle permisos de confianza, así podrá visualizar el cambio del ícono y podrá ejecutar el simulador.
 
 
 
@@ -136,8 +132,7 @@ como muestra la imagen siguiente, sólo se deberá dar en el botón ok. Este err
 
 la funcionalidad de la aplicación.
 
-Para agregar el plugin *external control* que se descargó anteriormente, se deberá ingresar
-
+Para agregar el plugin ***external control*** que se descargó anteriormente, se deberá ingresar
 en la configuración del simulador y realizar los pasos que se muestran en las siguientes
 
 imágenes:
@@ -162,23 +157,26 @@ $ catkin\_make en la espacio de trabajo catkin\_ws, presenta problemas similares
 
 como se muestra en la imagen, utilizar los siguientes comandos:
 
+
+```bash
 $ sudo apt update -qq
-
 $ rosdep update
-
 $ rosdep install --from-paths src --ignore-src -y
-
-
+```
 
 
 
 Si el error persiste utilice el siguiente comando:
 
-$ sudo apt install ros-melodic-PACKAGE
 
+```bash
+$ sudo apt install ros-melodic-PACKAGE
+```
 por ejemplo:
 
+```bash
 $ sudo apt install ros-melodic-**moveit-core**
+```
 
 Una vez instalado ROS se puede utilizar el simulador, para ello es necesario realizar la
 
@@ -193,4 +191,18 @@ seguidamente activarlo en “Program”, “URCaps”, “External Control”.
 Finalmente el programa ya está listo para usar, solamente debe darse en el botón de
 
 Power off para encenderlo y ejecutar el controlador del robot desde una terminal.
+
+
+
+
+
+## Usage/Examples
+
+```javascript
+import Component from 'my-project'
+
+function App() {
+  return <Component />
+}
+```
 
