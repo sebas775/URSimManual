@@ -57,6 +57,8 @@ Una vez descargado el archivo se recomienda crear una carpeta en la ubicación *
 
 con el nombre **ursim** y pegar el archivo descargado ahí dentro.
 
+![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image6.png)
+![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image27.png)
 
 
 
@@ -82,6 +84,8 @@ $ sudo apt install openjdk-8-jdk
 # Comando para cambiar versión jdk
 $ sudo update-alternatives --config java 
 ```
+![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image15.png) ![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image4.png)
+
 
 Una vez verificada la versión del SDK, acceder a la carpeta contenedora del simulador,
 
