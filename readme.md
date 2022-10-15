@@ -11,7 +11,7 @@ se recomienda realizar previamente los pasos de esta guía, para posteriormente 
 Lo primero será **descargar** el simulador desde la página oficial:
 
 <https://www.universal-robots.com/>
-![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image1.png)
+![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image9.png)
 
 
 Para ello, deberá desplazarse hasta el final de página donde encontrará el apartado
