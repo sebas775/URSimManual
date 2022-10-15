@@ -12,7 +12,7 @@ Lo primero será **descargar** el simulador desde la página oficial:
 
 <https://www.universal-robots.com/>
 <p align="center">
-  <img src="https://github.com/sebas775/URSimManual/blob/main/Imaganes/image9.png" width="456" height="455">
+  <img src="https://github.com/sebas775/URSimManual/blob/main/Imaganes/image9.png" width="600" height="155">
 </p>
 
 ![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image9.png)
