@@ -13,7 +13,7 @@ Lo primero será **descargar** el simulador desde la página oficial:
 <https://www.universal-robots.com/>
 
 <p align="center">
-<img src="https://github.com/sebas775/URSimManual/blob/main/Imaganes/image9.png" alt="Universal Robot e-Series family" style="width: 70%;"/>
+<img src="https://github.com/sebas775/URSimManual/blob/main/Imaganes/image9.png" alt="Universal Robot e-Series family" style="width: 80%;"/>
 </p>
 
 ![App Screenshot](https://github.com/sebas775/URSimManual/blob/main/Imaganes/image9.png)
