@@ -200,11 +200,11 @@ $ sudo apt install ros-melodic-PACKAGE
 por ejemplo:
 
 ```bash
-$ sudo apt install ros-melodic-**moveit-core**
-```
+$ sudo apt install ros-melodic-*moveit-core*
+``
 
 Una vez instalado ROS se puede utilizar el simulador, para ello es necesario realizar la
-
+ 
 configuración de la IP en el apartado de “Installation”, “URCaps”, “External Control” y
 
 seguidamente activarlo en “Program”, “URCaps”, “External Control”.
